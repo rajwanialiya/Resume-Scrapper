@@ -1,0 +1,26 @@
+{
+  "name": "resume-scrapper",
+  "version": "1.0.0",
+  "description": "Scrape Resumes and isolate for key words",
+  "main": "resume-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajwanialiya/Resume-Scrapper.git"
+  },
+  "author": "Aliya Rajwani, Joshua Wilkinson, Scott Sum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajwanialiya/Resume-Scrapper/issues"
+  },
+  "homepage": "https://github.com/rajwanialiya/Resume-Scrapper#readme",
+  "dependencies": {
+    "easy-pdf-parser": "0.0.4",
+    "fs": "0.0.1-security",
+    "pdf2json": "^1.1.8",
+    "pdftxt": "^0.1.0",
+    "resume-parser": "^1.1.0"
+  }
+}
